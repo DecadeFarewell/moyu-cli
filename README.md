@@ -1,4 +1,4 @@
-# my-h5-demo
+# moyu-cli
 
 ## Project setup
 ```
