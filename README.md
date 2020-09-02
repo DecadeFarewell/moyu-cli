@@ -1,4 +1,4 @@
-# moyu-cli
+# moyu🐟🐟🐟🐟-cli
 
 ## Project setup
 ```
