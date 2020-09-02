@@ -1,5 +1,6 @@
-import Vue, { VNode } from 'vue';
+import Vue, { VNode, VueConstructor } from 'vue';
 import VueRouter from 'vue-router';
+import { StoreOptions, Store } from 'vuex';
 // import Jquery from 'jquery';
 
 // 全局命名空间
@@ -16,8 +17,9 @@ declare global {
   }
 
   interface Window {
-    // echarts: typeof Echarts;
+    Vue: VueConstructor;
+    store: Store<any>;
     router: VueRouter;
-    $: any;
+    // $: Jquery;
   }
 }

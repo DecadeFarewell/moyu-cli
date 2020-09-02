@@ -14,7 +14,7 @@ module.exports = {
         plugins: [
           autoprefixer(),
           pxtorem({
-            rootValue: 100,
+            rootValue: 16,
             propList: ['*'],
           }),
         ],
