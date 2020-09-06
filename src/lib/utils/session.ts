@@ -36,7 +36,7 @@ class Session {
     let value: any = this.session.getItem(this.prefix + key);
     try {
       value = JSON.parse(value);
-      if (!value && (value !== false && value !== 0)) {
+      if (!value && value !== false && value !== 0) {
         value = null;
       }
     } catch (e) {

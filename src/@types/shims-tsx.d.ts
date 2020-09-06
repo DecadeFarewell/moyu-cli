@@ -1,7 +1,7 @@
 import Vue, { VNode, VueConstructor } from 'vue';
 import VueRouter from 'vue-router';
 import { StoreOptions, Store } from 'vuex';
-// import Jquery from 'jquery';
+// import jq from 'jquery';
 
 // 全局命名空间
 

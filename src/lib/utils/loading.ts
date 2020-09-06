@@ -1,4 +1,3 @@
-/* eslint-disable import/prefer-default-export */
 import { Loading } from 'element-ui';
 import { LoadingServiceOptions } from 'element-ui/types/loading.d';
 

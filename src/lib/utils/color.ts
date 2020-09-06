@@ -1,4 +1,3 @@
-// eslint-disable-next-line import/prefer-default-export
 export const _Color = (name: string) => {
   const list = [
     '--primary',

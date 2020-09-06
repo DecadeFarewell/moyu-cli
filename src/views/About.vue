@@ -3,6 +3,7 @@
     <gx-dialog></gx-dialog>
     <span class="text">test the jquery</span>
     <el-button type="primary" @click="changeColor">变色</el-button>
+    <div id="qrcoed"></div>
   </div>
 </template>
 <script lang="ts">

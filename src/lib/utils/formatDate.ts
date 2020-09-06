@@ -31,7 +31,7 @@ export const _FormatDate2 = (value: number | string): string => {
  */
 export const _FormatDateInterval = (
   dates: Array<number | string> | string,
-  isTime: boolean = false,
+  isTime = false,
 ): string[] => {
   if (!dates) {
     return [];

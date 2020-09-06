@@ -13,8 +13,8 @@ import { ElMessageBoxOptions } from 'element-ui/types/message-box.d';
  * @returns
  */
 export const _MessageConfirm = async (
-  msg: string = '删除不可逆转，是否确定?',
-  title: string = '提示',
+  msg = '删除不可逆转，是否确定?',
+  title = '提示',
   option?: ElMessageBoxOptions,
 ) => {
   try {

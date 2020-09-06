@@ -24,6 +24,8 @@ module.exports = {
     'no-unused-expressions': 'off',
     'no-param-reassign': 'off',
     'no-bitwise': 'off',
+    '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/no-unused-vars': 'off',
     'object-curly-newline': ['error', { consistent: true }],
     'arrow-parens': ['error', 'always'],
     'guard-for-in': 'off',

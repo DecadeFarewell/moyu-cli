@@ -1,5 +1,5 @@
 {
-  "name": "my-h5-demo",
+  "name": "my-cli",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -16,6 +16,7 @@
     "core-js": "^3.6.5",
     "dayjs": "^1.8.34",
     "element-ui": "^2.13.2",
+    "html-webpack-include-assets-plugin": "1.0.9",
     "jquery": "^3.5.1",
     "normalize.css": "^8.0.1",
     "postcss-pxtorem": "^5.1.1",

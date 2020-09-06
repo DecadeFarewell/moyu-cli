@@ -59,7 +59,7 @@ axios.defaults.headers = {
 };
 
 // 请求拦截
-axios.interceptors.request.use(req => {
+axios.interceptors.request.use((req) => {
   const config = req;
   const { headers } = config;
   if (!headers.scid) {

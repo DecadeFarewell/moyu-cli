@@ -36,7 +36,7 @@ class Storages {
     let value: any = this.storage.getItem(this.prefix + key);
     try {
       value = JSON.parse(value);
-      if (!value && (value !== false && value !== 0)) {
+      if (!value && value !== false && value !== 0) {
         value = null;
       }
     } catch (e) {
@@ -53,7 +53,7 @@ class Storages {
    * @param {number} [time=1] 有效时间，默认(1分钟)
    * @memberof Storages
    */
-  public setTime(key: string, value: any, time: number = 1) {
+  public setTime(key: string, value: any, time = 1) {
     const H = time * 1000 * 60; // 默认1分钟
     const now = new Date().getTime() + H;
     const data = JSON.stringify({ time: String(now), value });
