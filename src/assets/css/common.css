@@ -1,7 +1,7 @@
 html{
     width: 100%;
     height: 100%;
-    /* font-size: calc(100vw * 100 / 750); */
+    font-size: 13.3333333vw;
 }
 
 body{
