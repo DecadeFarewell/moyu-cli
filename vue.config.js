@@ -29,19 +29,26 @@ module.exports = {
     // config.externals = externals;
 
     const js = [
-      'https://cdn.bootcdn.net/ajax/libs/vue/0.10.0/vue.js',
-      'https://cdn.bootcdn.net/ajax/libs/vuex/0.4.1/vuex.js',
-      'https://cdn.bootcdn.net/ajax/libs/vue-router/0.4.0/vue-router.js',
-      'https://cdn.bootcdn.net/ajax/libs/axios/0.1.0/axios.js',
-      'https://cdn.bootcdn.net/ajax/libs/jquery/1.10.0/jquery.js',
+      // 'https://cdn.bootcdn.net/ajax/libs/vue/0.10.0/vue.js',
+      // 'https://cdn.bootcdn.net/ajax/libs/vuex/0.4.1/vuex.js',
+      // 'https://cdn.bootcdn.net/ajax/libs/vue-router/0.4.0/vue-router.js',
+      // 'https://cdn.bootcdn.net/ajax/libs/axios/0.1.0/axios.js',
+      // 'https://cdn.bootcdn.net/ajax/libs/jquery/1.10.0/jquery.js',
+    ];
+
+    const css = [
+      {
+        path: '../assets/index.css',
+        attributes: { id: 'theme' },
+      },
     ];
 
     const tags = new HtmlWebpackIncludeAssetsPlugin({
-      assets: [...js],
+      assets: [...js, ...css],
       append: false, // false代表前置资源
     });
 
-    // config.plugins.push(tags);
+    config.plugins.push(tags);
   },
 
   /**
